@@ -32,7 +32,7 @@ class TasksController extends Controller
         $task = new Task;
         
         return view('tasks.create',[
-            'tasks'=> $tasks,
+            'task'=> $task,
             ]);
         
     }
